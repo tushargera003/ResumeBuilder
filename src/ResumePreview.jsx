@@ -356,6 +356,7 @@ const ResumePreview = ({ data, styleConfig }) => {
           textAlign: personalInfoClass.includes("center") ? "center" : "left",
         }}
       >
+        {/* add padding */}
         {data.personalInformation.photo && (
           <img
             src={data.personalInformation.photo}
