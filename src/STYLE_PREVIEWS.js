@@ -198,7 +198,7 @@
 // stylePreviews.js
 const STYLE_PREVIEWS = {
   modern: {
-    class: "bg-white p-8 rounded-lg shadow-lg",
+    class: "bg-white p-2 rounded-lg shadow-lg",
     bgColor: "#ffffff",
     layout: "grid grid-cols-1 md:grid-cols-3 gap-8",
     iconColor: "#2563eb",
@@ -212,7 +212,7 @@ const STYLE_PREVIEWS = {
     removeBackground: true, // No background removal
   },
   leftAligned: {
-    class: "bg-gray-100 p-8 rounded-md shadow-sm",
+    class: "bg-gray-100 p-2 rounded-md shadow-sm",
     bgColor: "#f3f4f6",
     layout: "flex flex-col items-start space-y-4",
     iconColor: "#374151",
@@ -226,11 +226,11 @@ const STYLE_PREVIEWS = {
     removeBackground: true,
   },
   centeredHeader: {
-    class: "bg-white p-10 rounded-xl shadow-xl",
+    class: "bg-white p-3 rounded-xl shadow-xl",
     bgColor: "#ffffff",
-    layout: "flex flex-col items-center space-y-6",
+    layout: "flex flex-col items-center",
     iconColor: "#1f2937",
-    skillClass: "bg-blue-50 text-blue-700 rounded-lg px-3 py-1",
+    skillClass: "bg-blue-50 text-blue-700 rounded-lg ",
     showIcons: true,
     personalPlacement: "center-top",
     dateAlignment: "center",
@@ -240,7 +240,7 @@ const STYLE_PREVIEWS = {
     removeBackground: true,
   },
   iconSide: {
-    class: "bg-indigo-50 p-8 rounded-lg shadow-md",
+    class: "bg-indigo-50 p-2 rounded-lg shadow-md",
     bgColor: "#eef2ff",
     layout: "flex flex-col space-y-4",
     iconColor: "#4f46e5",
@@ -254,7 +254,7 @@ const STYLE_PREVIEWS = {
     removeBackground: true,
   },
   datesRight: {
-    class: "bg-white p-8 rounded-lg border border-gray-300",
+    class: "bg-white p-2 rounded-lg border border-gray-300",
     bgColor: "#ffffff",
     layout: "grid grid-cols-1 md:grid-cols-2 gap-6",
     iconColor: "#10b981",
@@ -312,7 +312,7 @@ const STYLE_PREVIEWS = {
     removeBackground: true,
   },
   professional: {
-    class: "bg-white p-8 rounded-lg shadow-md",
+    class: "bg-white p-2 rounded-lg shadow-md",
     bgColor: "#ffffff",
     layout: "grid grid-cols-1 md:grid-cols-2 gap-8",
     iconColor: "#3b82f6",
@@ -326,7 +326,7 @@ const STYLE_PREVIEWS = {
     removeBackground: true,
   },
   alternative: {
-    class: "bg-gray-50 p-8 rounded-lg shadow-sm",
+    class: "bg-gray-50 p-2 rounded-lg shadow-sm",
     bgColor: "#f9fafb",
     layout: "flex flex-col space-y-6",
     iconColor: "#ef4444",
@@ -340,7 +340,7 @@ const STYLE_PREVIEWS = {
     removeBackground: true,
   },
   futuristic: {
-    class: "bg-gray-900 p-10 rounded-2xl text-white shadow-2xl",
+    class: "bg-gray-900 p-3 rounded-2xl text-white shadow-2xl",
     gradientFrom: "#0f172a",
     gradientTo: "#1e293b",
     bgColor: null,
@@ -356,7 +356,7 @@ const STYLE_PREVIEWS = {
     removeBackground: true,
   },
   classic: {
-    class: "bg-beige-50 p-8 rounded-lg shadow",
+    class: "bg-beige-50 p-2 rounded-lg shadow",
     bgColor: "#faf3e0",
     layout: "flex flex-col space-y-4",
     iconColor: "#5d4037",
@@ -370,7 +370,7 @@ const STYLE_PREVIEWS = {
     removeBackground: true,
   },
   vintage: {
-    class: "bg-gray-200 p-8 rounded-md shadow-md",
+    class: "bg-gray-200 p-2 rounded-md shadow-md",
     bgColor: "#e0e0e0",
     layout: "flex flex-col space-y-5",
     iconColor: "#6d4c41",
@@ -384,7 +384,7 @@ const STYLE_PREVIEWS = {
     removeBackground: true,
   },
   bold: {
-    class: "bg-yellow-100 p-8 rounded-xl shadow-lg",
+    class: "bg-yellow-100 p-2 rounded-xl shadow-lg",
     bgColor: "#fef9c3",
     layout: "grid grid-cols-1 gap-6",
     iconColor: "#d97706",

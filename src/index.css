@@ -6,7 +6,8 @@
 
   .pdf-preview {
     width: 100% !important;
-    max-width: 800px !important; /* Adjust width */
+    min-width: 1200px;
+    max-width: 1200px !important; /* Adjust width */
     min-height: auto !important; /* Flexible height */
     border: none !important; /* Remove border */
     transform: scale(1); /* Prevent any scaling issues */
@@ -17,7 +18,8 @@
 
 #reviewResumeComponent {
     width: 100%;
-    max-width: 800px !important; /* A4 width but flexible */
+    min-width: 1200px;
+    max-width: 1200px !important; /* A4 width but flexible */
     margin: auto;
     border: none !important; /* Remove border */
     padding: 0px; /* Add padding to prevent cut-off */

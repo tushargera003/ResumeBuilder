@@ -199,8 +199,8 @@ function ResumeForm() {
       pdf.addImage(
         imgData,
         "JPEG",
-        marginX,
-        marginY,
+        0,
+        0,
         pdfImgWidth,
         pdfImgHeight,
         "",
@@ -1052,7 +1052,7 @@ function ResumeForm() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="mt-12 max-w-5xl mx-auto"
+              className="mt-12  "
             >
               <div id="reviewResumeComponent">
                 <ResumePreview

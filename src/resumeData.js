@@ -75,18 +75,18 @@ const resumeData = {
   ],
   "awards": [
     {
-      "title": "Best Developer Award",
-      "issuer": "Tech Solutions Ltd.",
-      "date": "2020-12-10",
-      "description": "Awarded for exceptional performance in software development."
+      "title": "",
+      "issuer": "",
+      "date": "",
+      "description": ""
     }
   ],
   "volunteerExperience": [
     {
-      "organization": "Local Community Center",
+      "organization": "",
       "role": "Volunteer Web Developer",
-      "startDate": "2019-01-01",
-      "endDate": "2019-06-01",
+      "startDate": "",
+      "endDate": "",
       "description": "Developed website for community outreach programs."
     }
   ],
