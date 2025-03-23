@@ -351,7 +351,7 @@ const ResumePreview = ({ data, styleConfig }) => {
     >
       {/* Header */}
       <div
-        className={`border-b pb-4 mb-4 ${personalInfoClass}`}
+        className={`border-b pb-4 mb-4 pt-2 pl-2 ${personalInfoClass}`}
         style={{
           textAlign: personalInfoClass.includes("center") ? "center" : "left",
         }}
