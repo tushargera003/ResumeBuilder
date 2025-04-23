@@ -1,12 +1,53 @@
-# React + Vite
+<h1 align="center">📄 Resume Builder</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A modern, frontend-only resume builder app built with React, Tailwind CSS, DaisyUI, and Framer Motion — designed for a sleek user experience and smooth animations.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="https://resume-builder-psi-dusky.vercel.app" target="_blank"><strong>🚀 Try Live Demo →</strong></a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧾 About The Project
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Resume Builder** helps users quickly craft professional resumes through a responsive, drag-and-drop UI. Featuring clean design with DaisyUI components and fluid animations using Framer Motion, this tool is built to be intuitive, minimal, and fast.
+
+Whether you're a student or a working professional, this builder helps you:
+- 📥 Upload a profile photo via drag-and-drop
+- 🎨 Customize from multiple resume styles
+- 🧹 Export resumes with only the **filled fields**
+- ✨ Maintain a stunning and modern visual layout
+
+---
+
+## 🔧 Tech Stack
+
+| Tech          | Description                               |
+|---------------|-------------------------------------------|
+| **React**     | Component-based frontend library          |
+| **Tailwind CSS** | Utility-first CSS framework            |
+| **DaisyUI**   | Tailwind component library for rapid UI   |
+| **Framer Motion** | Animation library for smooth transitions |
+
+---
+
+## 🎯 Features
+
+- 📸 Drag-and-drop photo uploader
+- 📄 Multiple resume styles (templated)
+- 🧼 Auto-hides empty fields on download
+- 🎨 Beautiful layout and responsive design
+- ⚡ Smooth page & component animations
+- 🖨️ Ready for PDF conversion or print
+
+---
+
+## 🔗 Live Preview
+
+🌐 **[https://resume-builder-psi-dusky.vercel.app](https://resume-builder-psi-dusky.vercel.app)**
+
+---
+
+
